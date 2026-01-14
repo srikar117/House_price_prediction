@@ -1,9 +1,11 @@
 House Price Prediction on California Housing Dataset from Kaggle
 
-Overview
+Overview:
+
 This repository contains a machine learning project focused on predicting house prices using the California Housing dataset from Kaggle. The aim is to build, evaluate, and compare regression models to estimate median house values based on demographic and geographic features.
 
-Dataset
+Dataset:
+
 The dataset includes features such as:
 median income
 number of rooms
@@ -14,7 +16,8 @@ Target variable: median house value
 
 Dataset source: California Housing Dataset on Kaggle
 
-Project Workflow
+Project Workflow:
+
 Data loading and initial inspection
 Handling missing values
 Exploratory data analysis (EDA)
@@ -24,12 +27,14 @@ Train–test split
 Feature scaling where required
 Model training and evaluation
 
-Models Implemented
+Models Implemented:
+
 Linear Regression
 Random Forest Regressor
 Gradient Boosting Regressor
 
-Results
+Results:
+
 Linear Regression served as a baseline model
 Random Forest showed strong predictive performance but required tuning to reduce overfitting
 Tuned Gradient Boosting Regressor achieved the best overall performance
@@ -37,7 +42,8 @@ Final metrics (approximate):
 R² ≈ 0.82
 RMSE ≈ 49,000
 
-Key Insights
+Key Insights:
+
 Nonlinear ensemble methods outperform simple linear models
 Median income and location-based features are strong predictors of house prices
 Feature engineering and hyperparameter tuning significantly improve performance
