@@ -40,4 +40,4 @@ RMSE ≈ 49,000
 Key Insights
 Nonlinear ensemble methods outperform simple linear models
 Median income and location-based features are strong predictors of house prices
-Feature engineering and hyperparameter tuning significantly improve pe
+Feature engineering and hyperparameter tuning significantly improve performance
